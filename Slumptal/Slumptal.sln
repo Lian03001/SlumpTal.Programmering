@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slumptal", "Slumptal.csproj", "{09BB06B0-FA6C-45C9-A494-C1AEBCF1CCAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09BB06B0-FA6C-45C9-A494-C1AEBCF1CCAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09BB06B0-FA6C-45C9-A494-C1AEBCF1CCAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09BB06B0-FA6C-45C9-A494-C1AEBCF1CCAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09BB06B0-FA6C-45C9-A494-C1AEBCF1CCAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {426AF2C9-7EC3-41A6-AF81-30D2220860EF}
+	EndGlobalSection
+EndGlobal
