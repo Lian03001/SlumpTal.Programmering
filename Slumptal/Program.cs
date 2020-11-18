@@ -22,10 +22,15 @@ namespace Slumptal
                 {
                     Console.WriteLine("Rätt gissat, du gissade " + AntalGissningar + " antal gångar.");
                 }
-                else
+                else if (Gissning > SlumpTal) 
                 {
                     AntalGissningar++;
-                    Console.WriteLine("Fel gissning, försök igen.");
+                    Console.WriteLine("Fel gissning, talet är mindre. Försök igen.");
+                }
+                else if (Gissning < SlumpTal)
+                {
+                    AntalGissningar++;
+                    Console.WriteLine("Fel gissning, talet är högre. Försök igen.");
                 }
             }
 
